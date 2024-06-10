@@ -8,8 +8,8 @@ Advancements in Drone Technology as a remote sensing platform  and the use of AI
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Appraoch](#approach)
-* [Conclusions](#conclusions)
+* [Approach](#approach)
+* [Conclusion](#conclusion)
 * [Contact](#contact)
 
 ## General Information
@@ -35,7 +35,7 @@ The dataset contains the original images and their corresponding ground  truth/a
 - The model is trained for 100 epochs, 1000 epochs
 - Using threshold values of .4, .5, .7, the results of binary thresholding are observed
 
-## Conclusions
+## Conclusion
 - Limitation: For image analysis, a model requires a large number of images in the order of 1000's to converge, which typically requires GPU hardware. Given the xonstraints that teh assignment is carried out on laptop, the training dataset is limited to 30 images. This is not sufficient to come to any visible conclusion.
 - However, it can be noted how the learning rate reduces and eventually ealy stopping is triggered in all the cases when a plateau is obtained in loss value.
 - Choosing the right number of epochs, setting appropriate learning rate, choice of optimizer - they all impact the learning by the model.
